@@ -1,0 +1,67 @@
+======================    Exploratory Data Analysis    ======================
+
+Step 1: Data Preprocessing
+    
+    - missing values analysis
+    - data types mismatch
+
+Step2: Data Analysis 
+
+    - Categorical Data
+    - Numerical Data
+    - Bi variate
+    - Multi variate
+    - Outlier analysis
+
+Step 3: Feature Engineering 
+
+    - Impute the Outliers 
+    - ML needs numbers, Converting English to Numerical 
+    - Scaling : Standarization and Normalization
+    - Transformation : Convert into Normal distribution
+
+
+
+==========Complete EDA ====================
+
+---------Data cleaning and Analysis----------
+1. Read the Data 
+2. create categorical and numerical columns list
+3. Data quick checks 
+    A) shape B) Size c) len D) Head E)Tail F) info
+4. Missing value Analysis
+5. Data quality checks or data Cleaning
+    for Example: some columns values has some punctunations 
+                column is numerical value
+                but some where cat values available
+6. Categorical column analysis 
+    A) Frequency B) Relative Frequency C) Bar Chart D) Pie Chart
+    write your understanding
+7. Numerical column Analysis
+    A) Statistical Summary B) histogram Data distribution
+    write your understanding
+8. Outlier Analysis 
+    A) Box plot
+    B) Treat the outliers
+9. Bivariate and Multivariate analysis
+    A) How one column impact another column
+    B) correaltion C) HeatMaps
+
+------------Feature Engineering----------------
+
+10. Encoding : Convert the Categorical to Numerical
+     A) Label encoder B) One HotEncoder
+11. Scaling: 
+        A) Standardization and B) Normalization
+12.  Transformation(Optional)
+
+------------Feature Selection-------------------
+
+13. Selecting the important feature for ML Model
+
+-------------Dimension Reduction Methods----------
+
+14. Principle component Ananlysis 
+    Singular Value Decomposition
+
+------------ Final: Devolping the ML Model---------
